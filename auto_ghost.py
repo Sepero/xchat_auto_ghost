@@ -1,4 +1,4 @@
-__module_name__ = "XChat Auto Ghost"
+__module_name__ = "Auto Ghost"
 __module_version__ = "0.1.0"
 __module_description__ = "Ghost the default nick and change to it."
 
