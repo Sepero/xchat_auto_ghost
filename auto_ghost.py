@@ -14,11 +14,11 @@ def on_server_connected(word, word_eol, userdata):
     password = xchat.get_info("nickserv")
     
     if password and current_nick != desired_nick:
-      xchat.command("msg nickserv ghost %s %s" % (desired_nick, password))
-      time.sleep(1)
-      xchat.command("nick %s" % desired_nick)
-      time.sleep(1)
-      xchat.command("msg nickserv identify %s %s" % (desired_nick, password))
+        xchat.command("msg nickserv ghost %s %s" % (desired_nick, password))
+        time.sleep(1)
+        xchat.command("nick %s" % desired_nick)
+        time.sleep(1)
+        xchat.command("msg nickserv identify %s %s" % (desired_nick, password))
     
     return xchat.EAT_NONE
 
