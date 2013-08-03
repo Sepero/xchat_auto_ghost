@@ -1,7 +1,7 @@
-xchat_auto_ghost
+XChat Auto Ghost
 ================
 
-XChat Automatic Ghost Plugin
+XChat Automatic Ghost Python Plugin
 
 After signing onto an irc server, this plugin will check to see if you are logged in
 using your first nick name of choice. If not, it will attempt to ghost the nick name, switch
