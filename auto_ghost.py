@@ -18,7 +18,8 @@ def on_server_connected(word, word_eol, userdata):
         time.sleep(1)
         xchat.command("nick %s" % desired_nick)
         time.sleep(1)
-        xchat.command("msg nickserv identify %s" % password)
+    
+    xchat.command("msg nickserv identify %s" % password)
     
     return xchat.EAT_NONE
 
