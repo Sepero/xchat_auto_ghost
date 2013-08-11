@@ -1,5 +1,5 @@
 __module_name__ = "Auto Ghost"
-__module_version__ = "0.1.1"
+__module_version__ = "0.1.2"
 __module_description__ = "Ghost the default nick and change/identify as that user."
 
 display = (__module_name__ + " " + __module_version__ + " has been loaded.",
