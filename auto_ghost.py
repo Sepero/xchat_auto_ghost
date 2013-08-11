@@ -2,7 +2,14 @@ __module_name__ = "Auto Ghost"
 __module_version__ = "0.1.1"
 __module_description__ = "Ghost the default nick and change/identify as that user."
 
-print("\0034",__module_name__, __module_version__,"has been loaded\003")
+display = (__module_name__ + " " + __module_version__ + " has been loaded.",
+"Module URL: https://github.com/Sepero/xchat_auto_ghost/",
+"Author: Sepero - sepero 111 @ gmail . com",
+" Remote Python developer and Linux administrator for hire.",)
+
+for line in display:
+    print("\0034" + line + "\003")
+
 
 import xchat
 from time import sleep
