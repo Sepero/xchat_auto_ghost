@@ -1,18 +1,17 @@
+import xchat
+from time import sleep
+
 __module_name__ = "Auto Ghost"
-__module_version__ = "0.1.2"
+__module_version__ = "0.13"
 __module_description__ = "Ghost the default nick and change/identify as that user."
 
 display = (__module_name__ + " " + __module_version__ + " has been loaded.",
-"Module URL: https://github.com/Sepero/xchat_auto_ghost/",
-"Author: Sepero - sepero 111 @ gmail . com",
-" Remote Python developer and Linux administrator for hire.",)
+        "Module URL: https://github.com/Sepero/xchat_auto_ghost/",
+        "Author: Sepero - sepero 111 @ gmail . com",
+        " Remote Python developer and Linux administrator for hire.",)
 
 for line in display:
     print("\0034" + line + "\003")
-
-
-import xchat
-from time import sleep
 
 def on_server_connected(word, word_eol, userdata):
     desired_nick = xchat.get_prefs("irc_nick1")
