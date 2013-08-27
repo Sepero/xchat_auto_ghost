@@ -10,8 +10,7 @@ to that name, and identify as that user.
 Instructions for installing this plugin should be found on this page.
 http://xchat.org/faq/#q218
 
-I am not well experienced in writing xchat plugins, and the hook method used in this plugin
-may be improved upon. Any suggestions, comments, forks, or emails are appreciated.
+Any suggestions, comments, forks, or emails are appreciated.
 sepero 111 @ gmail . com
 
 
