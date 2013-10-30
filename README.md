@@ -11,7 +11,7 @@ Instructions for installing this plugin should be found on this page.
 http://xchat.org/faq/#q218
 
 Any suggestions, comments, forks, or emails are appreciated.
-sepero 111 @ gmail . com
+sepero 111 @ gmx . com
 
 
 xchat auto kill ghost nickname username connect disconnect reconnect
