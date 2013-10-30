@@ -8,7 +8,7 @@ __module_description__ = "Ghost the default nick and change/identify as that use
 
 display = (__module_name__ + " " + __module_version__ + " has been loaded.",
         "    Module URL: https://github.com/Sepero/xchat_auto_ghost/",
-        "    Author: Sepero 2013 - sepero 111 @ gmail . com",
+        "    Author: Sepero 2013 - sepero 111 @ gmx . com",
         "         Remote Python developer and Linux administrator for hire.",)
 
 for line in display:
