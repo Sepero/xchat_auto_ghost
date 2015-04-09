@@ -19,7 +19,7 @@ def set_nick(word, word_eol, userdata):
     password = xchat.get_info("nickserv")
     
     if word[3] == desired_nick and password:
-        randstring = ''.join(choice(string.lowercase) for i in xrange(16))
+        randstring = ''.join(choice(string.ascii_lowercase) for i in range(16))
         xchat.command("nick %s" % randstring)
         xchat.command("nickserv ghost %s %s" % (desired_nick, password))
         xchat.command("nick %s" % desired_nick)
